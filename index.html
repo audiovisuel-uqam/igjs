@@ -31,6 +31,7 @@
   <script type="text/javascript" src="./jquery.igjs.js"></script>
   <script type="text/javascript" src="./igjs.js"></script>
   <script type="text/javascript">
+  
     getPosts('instagram').then(posts => {
       $('.ig-info img').attr('src', posts[0].image)
       $('.caption').append('<h3>Caption:</h3> ' + posts[0].caption)
